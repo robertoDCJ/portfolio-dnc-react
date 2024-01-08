@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./Image/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
 }
 
 code {
