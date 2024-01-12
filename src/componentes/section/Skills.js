@@ -3,6 +3,7 @@ import javascript from '../../Image/skills/javascript.svg';
 import html from '../../Image/skills/html.svg';
 import css from '../../Image/skills/css.svg';
 import react from '../../Image/skills/react.svg';
+import Tooltip from '../elements/Tooltip';
 
 function Skills() {
     return (
@@ -10,10 +11,23 @@ function Skills() {
             <h1>Habilidades</h1>
             <p>Conheça um pouco das minhas principais habilidades e conhecimentos.</p>
             <div>
-                <img src={javascript} alt='ERROR'/>
-                <img src={html} alt='ERROR'/>
-                <img src={css} alt='ERROR'/>
-                <img src={react} alt='ERROR'/>
+                
+                <div className={styles.js}>
+                    <img src={javascript} alt='ERROR'/>
+                    <Tooltip text='JavaScript'/>
+                </div>
+                <div className={styles.js}>
+                    <img src={html} alt='ERROR'/>
+                    <Tooltip text='HTML'/>
+                </div>
+                <div className={styles.js}>
+                    <img src={css} alt='ERROR'/>
+                    <Tooltip text='CSS'/>
+                </div>
+                <div className={styles.js}>
+                    <img src={react} alt='ERROR'/>
+                    <Tooltip text='React.js'/>
+                </div>
             </div>
         </div>
     )

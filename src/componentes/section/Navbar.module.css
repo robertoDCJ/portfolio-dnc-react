@@ -17,3 +17,7 @@
 .navbar a {
     color: aliceblue !important;
 }
+
+.navbar a:hover {
+    color: #b3b3b3 !important;
+}

@@ -15,6 +15,10 @@
     color: aliceblue !important;
 }
 
+.footer a:hover {
+    color: #b3b3b3 !important;
+}
+
 .footer li {
     margin-left: 15px;
 }
