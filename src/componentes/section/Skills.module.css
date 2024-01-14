@@ -54,10 +54,12 @@
 }
 
 .js img {
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
+    transition-delay: .1s;
 }
 
 .js img:hover {
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
+    transition-delay: .1s;
     transform: translateY(-50px) scale(.9);
 }
